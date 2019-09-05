@@ -1,0 +1,84 @@
+{
+  "names": {
+    "default": {
+      "roman": "Urien"
+    },
+    "japan": {
+      "roman": "Urien",
+      "original": "ユリアン"
+    }
+  },
+  "images": {
+    "face": "urien.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Spartan Bomb",
+        "input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
+      },
+      {
+        "name": "Destroy Claw",
+        "input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Maul Punch",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Quarrel Kick",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Killer Straight",
+        "input": "[LP] > [MP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Metallic Sphere",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Chariot Tackle",
+        "input": "{charge} :b: :f:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Violence Knee Drop",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true
+      },
+      {
+        "name": "Dangerous Headbutt",
+        "input": "{charge} :d: :u:+[P]",
+        "canBeUpgraded": true
+      }
+    ],
+    "{superArt1}": [
+      {
+        "name": "Tyrant Slaughter",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt2}": [
+      {
+        "name": "Temporal Thunder",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{superArt3}": [
+      {
+        "name": "Aegis Reflector",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "Aegis Reflector (Above)",
+        "input": ":qcf::qcf:+[P]+[P]"
+      }
+    ]
+  }
+}
