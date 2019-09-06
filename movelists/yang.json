@@ -49,7 +49,7 @@
       },
       {
         "name": "Target Combo 4",
-        "input": "{inAir}, [MK] > :df:+[MK]"
+        "input": "{duringForwardJump}, [MK] > :df:+[MK]"
       }
     ],
     "{specialMoves}": [
